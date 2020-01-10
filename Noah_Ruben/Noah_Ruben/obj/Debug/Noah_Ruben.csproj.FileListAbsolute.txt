@@ -17,3 +17,14 @@ C:\Users\thezo\Desktop\C#\BattleShip\Noah_Ruben\Noah_Ruben\obj\Debug\Noah_Ruben.
 C:\Users\thezo\Desktop\C#\BattleShip\Noah_Ruben\Noah_Ruben\obj\Debug\Noah_Ruben.csproj.GenerateResource.cache
 C:\Users\thezo\Desktop\C#\BattleShip\Noah_Ruben\Noah_Ruben\obj\Debug\Noah_Ruben.exe
 C:\Users\thezo\Desktop\C#\BattleShip\Noah_Ruben\Noah_Ruben\obj\Debug\Noah_Ruben.pdb
+C:\Users\nd145438\Desktop\Chapter 5\BattleShipFix\Noah_Ruben\Noah_Ruben\bin\Debug\Noah_Ruben.exe.config
+C:\Users\nd145438\Desktop\Chapter 5\BattleShipFix\Noah_Ruben\Noah_Ruben\bin\Debug\Noah_Ruben.exe
+C:\Users\nd145438\Desktop\Chapter 5\BattleShipFix\Noah_Ruben\Noah_Ruben\bin\Debug\Noah_Ruben.pdb
+C:\Users\nd145438\Desktop\Chapter 5\BattleShipFix\Noah_Ruben\Noah_Ruben\obj\Debug\Noah_Ruben.csprojAssemblyReference.cache
+C:\Users\nd145438\Desktop\Chapter 5\BattleShipFix\Noah_Ruben\Noah_Ruben\obj\Debug\Noah_Ruben.Form1.resources
+C:\Users\nd145438\Desktop\Chapter 5\BattleShipFix\Noah_Ruben\Noah_Ruben\obj\Debug\Noah_Ruben.Form2.resources
+C:\Users\nd145438\Desktop\Chapter 5\BattleShipFix\Noah_Ruben\Noah_Ruben\obj\Debug\Noah_Ruben.Properties.Resources.resources
+C:\Users\nd145438\Desktop\Chapter 5\BattleShipFix\Noah_Ruben\Noah_Ruben\obj\Debug\Noah_Ruben.csproj.GenerateResource.cache
+C:\Users\nd145438\Desktop\Chapter 5\BattleShipFix\Noah_Ruben\Noah_Ruben\obj\Debug\Noah_Ruben.csproj.CoreCompileInputs.cache
+C:\Users\nd145438\Desktop\Chapter 5\BattleShipFix\Noah_Ruben\Noah_Ruben\obj\Debug\Noah_Ruben.exe
+C:\Users\nd145438\Desktop\Chapter 5\BattleShipFix\Noah_Ruben\Noah_Ruben\obj\Debug\Noah_Ruben.pdb

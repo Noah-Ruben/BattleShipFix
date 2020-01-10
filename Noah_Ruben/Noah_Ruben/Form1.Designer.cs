@@ -174,6 +174,10 @@
             this.label120 = new System.Windows.Forms.Label();
             this.label121 = new System.Windows.Forms.Label();
             this.label122 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label123 = new System.Windows.Forms.Label();
+            this.label124 = new System.Windows.Forms.Label();
+            this.label125 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -182,6 +186,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
@@ -1536,11 +1541,53 @@
             this.label122.TabIndex = 43;
             this.label122.Text = "9";
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label125);
+            this.panel2.Controls.Add(this.label124);
+            this.panel2.Controls.Add(this.label123);
+            this.panel2.Location = new System.Drawing.Point(593, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(266, 473);
+            this.panel2.TabIndex = 44;
+            this.panel2.Visible = false;
+            // 
+            // label123
+            // 
+            this.label123.AutoSize = true;
+            this.label123.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label123.Location = new System.Drawing.Point(10, 7);
+            this.label123.Name = "label123";
+            this.label123.Size = new System.Drawing.Size(249, 26);
+            this.label123.TabIndex = 0;
+            this.label123.Text = "Pirate attack incoming";
+            // 
+            // label124
+            // 
+            this.label124.AutoSize = true;
+            this.label124.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label124.Location = new System.Drawing.Point(37, 61);
+            this.label124.Name = "label124";
+            this.label124.Size = new System.Drawing.Size(185, 26);
+            this.label124.TabIndex = 1;
+            this.label124.Text = "Shots remaining";
+            // 
+            // label125
+            // 
+            this.label125.AutoSize = true;
+            this.label125.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label125.Location = new System.Drawing.Point(123, 115);
+            this.label125.Name = "label125";
+            this.label125.Size = new System.Drawing.Size(30, 24);
+            this.label125.TabIndex = 2;
+            this.label125.Text = "20";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(871, 567);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.label122);
             this.Controls.Add(this.label121);
             this.Controls.Add(this.label120);
@@ -1595,6 +1642,8 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1747,6 +1796,10 @@
         private System.Windows.Forms.Label label120;
         private System.Windows.Forms.Label label121;
         private System.Windows.Forms.Label label122;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label125;
+        private System.Windows.Forms.Label label124;
+        private System.Windows.Forms.Label label123;
     }
 }
 
