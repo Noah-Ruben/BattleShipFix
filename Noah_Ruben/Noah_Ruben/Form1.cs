@@ -12,7 +12,7 @@ namespace Noah_Ruben
 {
     public partial class Form1 : Form
     {
-        Label[][] Board;
+        public Label[][] Board;
         Image FirstShip = Image.FromFile("boat1.PNG");
         Image SecondShip = Image.FromFile("boat2.PNG");
         Image ThirdShip = Image.FromFile("boat3.PNG");
