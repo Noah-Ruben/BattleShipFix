@@ -44,25 +44,13 @@ namespace Noah_Ruben
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void startButton_Click(object sender, EventArgs e)
         {
             panel1.Hide();
         }
 
-        private void label116_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -196,6 +184,35 @@ namespace Noah_Ruben
                 this.textBox7.TextChanged -= textBox7_TextChanged;
                 break;
             }
+        }
+        public static void Attacking()
+        {
+            int column = 0;
+            int row = 0;
+            int[,] SpacesShot = new int[20, 20];
+            int ShotsFired = 0;
+            Random random = new Random();
+            while (ShotsFired < 21)
+            {
+                column = random.Next(0, 9);
+                row = random.Next(0, 9);
+
+                if (NewMethod(column, row) == Board(0,0))
+                {
+
+                }
+            }
+
+        }
+
+        private static bool NewMethod(int column, int row)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static Label NewMethod(int column, int row, Label[][] Board)
+        {
+            return Board[row][column];
         }
     }
 }

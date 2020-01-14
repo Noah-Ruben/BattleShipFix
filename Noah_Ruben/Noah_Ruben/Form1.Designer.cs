@@ -175,9 +175,9 @@
             this.label121 = new System.Windows.Forms.Label();
             this.label122 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label123 = new System.Windows.Forms.Label();
-            this.label124 = new System.Windows.Forms.Label();
             this.label125 = new System.Windows.Forms.Label();
+            this.label124 = new System.Windows.Forms.Label();
+            this.label123 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -1479,7 +1479,6 @@
             this.label116.Size = new System.Drawing.Size(25, 26);
             this.label116.TabIndex = 37;
             this.label116.Text = "3";
-            this.label116.Click += new System.EventHandler(this.label116_Click);
             // 
             // label117
             // 
@@ -1548,19 +1547,19 @@
             this.panel2.Controls.Add(this.label123);
             this.panel2.Location = new System.Drawing.Point(593, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(266, 473);
+            this.panel2.Size = new System.Drawing.Size(266, 341);
             this.panel2.TabIndex = 44;
             this.panel2.Visible = false;
             // 
-            // label123
+            // label125
             // 
-            this.label123.AutoSize = true;
-            this.label123.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label123.Location = new System.Drawing.Point(10, 7);
-            this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(249, 26);
-            this.label123.TabIndex = 0;
-            this.label123.Text = "Pirate attack incoming";
+            this.label125.AutoSize = true;
+            this.label125.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label125.Location = new System.Drawing.Point(123, 115);
+            this.label125.Name = "label125";
+            this.label125.Size = new System.Drawing.Size(30, 24);
+            this.label125.TabIndex = 2;
+            this.label125.Text = "20";
             // 
             // label124
             // 
@@ -1572,15 +1571,15 @@
             this.label124.TabIndex = 1;
             this.label124.Text = "Shots remaining";
             // 
-            // label125
+            // label123
             // 
-            this.label125.AutoSize = true;
-            this.label125.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label125.Location = new System.Drawing.Point(123, 115);
-            this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(30, 24);
-            this.label125.TabIndex = 2;
-            this.label125.Text = "20";
+            this.label123.AutoSize = true;
+            this.label123.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label123.Location = new System.Drawing.Point(10, 7);
+            this.label123.Name = "label123";
+            this.label123.Size = new System.Drawing.Size(249, 26);
+            this.label123.TabIndex = 0;
+            this.label123.Text = "Pirate attack incoming";
             // 
             // Form1
             // 
@@ -1632,7 +1631,6 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
