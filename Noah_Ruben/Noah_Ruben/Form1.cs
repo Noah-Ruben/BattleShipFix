@@ -19,7 +19,9 @@ namespace Noah_Ruben
         Image FourthShip = Image.FromFile("boat4.PNG");
         Image FifthShip = Image.FromFile("boat5.PNG");
         Image SixthShip = Image.FromFile("boat6.PNG");
+        Image Hit = Image.FromFile("Hit.png");
         int changed = 0;
+        Random random = new Random();
 
         public Form1()
         {
@@ -62,6 +64,20 @@ namespace Noah_Ruben
                 Board[Convert.ToInt32(textBox12.Text)][Convert.ToInt32(textBox11.Text)].Image = FourthShip;
                 Board[Convert.ToInt32(textBox10.Text)][Convert.ToInt32(textBox9.Text)].Image = FifthShip;
                 Board[Convert.ToInt32(textBox8.Text)][Convert.ToInt32(textBox7.Text)].Image = SixthShip;
+                Board[Convert.ToInt32(textBox1.Text)][Convert.ToInt32(textBox2.Text)].Text = "FirstShip";
+                Board[Convert.ToInt32(textBox4.Text)][Convert.ToInt32(textBox3.Text)].Text = "SecondShip";
+                Board[Convert.ToInt32(textBox6.Text)][Convert.ToInt32(textBox5.Text)].Text = "ThirdShip";
+                Board[Convert.ToInt32(textBox12.Text)][Convert.ToInt32(textBox11.Text)].Text = "FourthShip";
+                Board[Convert.ToInt32(textBox10.Text)][Convert.ToInt32(textBox9.Text)].Text = "FifthShip";
+                Board[Convert.ToInt32(textBox8.Text)][Convert.ToInt32(textBox7.Text)].Text = "SixthShip";
+                Attacking();
+                foreach (Label[] Labels in Board)
+                {
+                    foreach (Label  label in Labels)
+                    {
+                        label.Refresh();
+                    }
+                }
             }
 
         }
@@ -185,34 +201,31 @@ namespace Noah_Ruben
                 break;
             }
         }
-        public static void Attacking()
+
+        public void Attacking()
         {
-            int column = 0;
-            int row = 0;
+
             int[,] SpacesShot = new int[20, 20];
             int ShotsFired = 0;
-            Random random = new Random();
+            int shipsSunk = 0;
+            
             while (ShotsFired < 21)
             {
-                column = random.Next(0, 9);
-                row = random.Next(0, 9);
+                Console.WriteLine("Thinking");
+                int column = random.Next(0, 9);
+                int row = random.Next(0, 9);
 
-                if (NewMethod(column, row) == Board(0,0))
+                if (Board[row][column].Text != null)
                 {
-
+                    if (Board[row][column].Text != "miss")
+                    {
+                        Board[row][column].Image = Hit;
+                        shipsSunk += 1;
+                    }
                 }
+                ShotsFired += 1;
             }
 
-        }
-
-        private static bool NewMethod(int column, int row)
-        {
-            throw new NotImplementedException();
-        }
-
-        private static Label NewMethod(int column, int row, Label[][] Board)
-        {
-            return Board[row][column];
         }
     }
 }
